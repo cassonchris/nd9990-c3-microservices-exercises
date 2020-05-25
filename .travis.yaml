@@ -12,6 +12,7 @@ install:
 # Scripts to be run such as tests
 before_script:
   - echo "no tests"
+  - cd lesson-2-containers/exercises/simple-node
 
 script:
   - docker --version # print the version for logging
